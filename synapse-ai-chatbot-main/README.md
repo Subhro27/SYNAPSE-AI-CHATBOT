@@ -9,7 +9,6 @@ Features
 ## >Customizable: Easily modify the chatbot's name, styling, and functionality.
 ## >Dummy Responses: Predefined responses are used until a Gemini API key is provided for real AI responses.
 
-Based on the chatbot project at `D:\CHATBOT`, I'll list the tech stack in a clear, bulleted format. Since you’ve asked to exclude the PDF parsing functionality (which used `pdfjs-dist` and wasn’t working), I’ll focus on the core technologies powering the functional parts of the app, such as the chat interface, UI, and dummy response system. This matches the project as described in the `README.md` I provided earlier.
 
 ---
 
@@ -52,13 +51,6 @@ Based on the chatbot project at `D:\CHATBOT`, I'll list the tech stack in a clea
 
 ---
 
-### Notes
-- The tech stack focuses on the working features: the chat interface, UI, and dummy response system.
-- I’ve excluded `pdfjs-dist` since the PDF parsing functionality isn’t working, as per your request.
-- The Gemini API integration is listed as optional since it’s not active (the API key is set to `"Your API Key"` in `ChatBot.tsx`).
-
-It’s currently 04:29 PM IST on Monday, May 26, 2025. Let me know if you’d like to adjust this list or dive deeper into any specific technology!
-
 ## Installation:
 
 ## Follow these steps to set up and run the project locally:
@@ -78,11 +70,10 @@ Open http://localhost:5173 in your browser to see the chatbot in action.
 (Optional) Configure Gemini API:
 
 To enable real AI responses, obtain a Gemini API key from Google AI Studio.
+
 Update the GEMINI_API_KEY in src/ChatBot.tsx:const GEMINI_API_KEY = "your-gemini-api-key";
 
 The app will then use the Gemini API (gemini-1.5-flash model) instead of dummy responses.
-
-
 
 ## Usage:
 
